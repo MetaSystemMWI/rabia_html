@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width: 100%;
+            /* border-collapse: collapse; */
+            border-spacing: 30px;
+        }
+        td, th{
+            border: 1px solid black;
+            text-align: center;
+            padding: 8px;
+            /* background-color: #96D4D4; */
+            border-color: red;
+            border-style: dashed;
+        }
+        tr:nth-child(even){
+            background-color: #dddddd;
+        }
+    </style>
+</head>
+<body>
+    
+    <h2>HTML Table</h2>
+
+    <table>
+        <caption>Company Information</caption>
+        <!-- Table row -->
+        <tr>
+            <!-- table head -->
+            <th colspan="2">Company Name</th>
+            <th>Contact</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <!-- table data -->
+            <td>Meta System Miawanli</td>
+            <td style="width: 70%;">323-2320928328-343434343434343</td>
+            <td>Pakistan</td>
+        </tr>
+        <tr>
+            <!-- table data -->
+            <td>Meta System Miawanli</td>
+            <td rowspan="2">323-2320928328</td>
+            <td>Pakistan</td>
+        </tr>
+        <tr>
+            <!-- table data -->
+            <td>Meta System Miawanli</td>
+            <td style="height: 200px;">323-2320928328</td>
+            <td>Pakistan</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <th>Company</th>
+            <td>MEta Sysetm</td>
+            <td>Number</td>
+        </tr>
+        <tr>
+            <th colspan="2">Company</th>
+            <td>MEta Sysetm</td>
+            <td>Number</td>
+        </tr>
+        <tr>
+            <th>Company</th>
+            <td>MEta Sysetm</td>
+            <td>Number</td>
+        </tr>
+    </table>
+</body>
+</html>
