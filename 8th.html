@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="description" content="free web online classes"> 
+    <meta name="author" content="Meta System Mianwali"> 
+    <meta http-equiv="refresh" content="30"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="https://www.google.com/" target="_blank">
+    <title>Templete</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        header{
+            background-color: #666;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+        nav{
+            float: left;
+            width: 30%;
+            height: 300px;
+            background-color: #ccc;
+            padding: 20px;
+        }
+        nav ul{
+            list-style-type:none;
+            padding: 0;
+        }
+        article{
+            float: left;
+            padding: 20px;
+            width: 70%;
+            background-color: #f1f1f1;
+            height: 300px;
+        }
+        section::after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+        footer{
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+        @media (max-width:600px) {
+            nav,article{
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- <button onclick="myFunction()">Hello</button>
+    <script>
+        function myFunction(){
+            document.write("Hello World");
+        }
+    </script> -->
+
+    <!-- header, navbar, body, footer -->
+
+    <header>
+        <h2>Meta System</h2>
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a href="">Mianwali</a></li>
+                <li><a href="">Lahore</a></li>
+                <li><a href="">Islamabad</a></li>
+            </ul>
+        </nav>
+        <article>
+            <h1>Mianwali</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, minus. Debitis ea, pariatur sequi illum sint minus necessitatibus tempora velit.</p>
+        </article>
+    </section>
+
+
+    <footer>
+        <p>Mianwli</p>
+    </footer>
+
+</body>
+</html>
