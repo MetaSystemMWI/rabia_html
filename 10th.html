@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- input, lable, select, textarea, button, fieldset, 
+    legend, datalist, output, option, optgroup -->
+    <form action="">
+        <!-- <fieldset>
+            <select name="" id="" size="3" multiple>
+                <option value="" >Meta System </option>
+                <option value="">Meta </option>
+                <option value="">Meta </option>
+                <option value="" selected>Meta </option>
+                <option value="">Meta </option>
+                <option value="">Meta </option>
+            </select>
+
+            <input type="text">
+        </fieldset> -->
+
+        <!-- <input type="text" readonly> -->
+        <!-- <input type="text" size="50"> -->
+        <!-- <input type="text" disabled> -->
+        <!-- <input type="file" multiple> -->
+
+
+        <!-- <input type="text" pattern="[a-zA-Z]{3}" placeholder="allow only three letters"> -->
+
+        <!-- 92333333333 pattern  -->
+
+        <!-- <input type="text" required> -->
+        <!-- <input type="text" step="3"> -->
+        <!-- <input type="submit"> -->
+        
+    </form>
+
+    <canvas id="mycanvas" width="200" height="100" style="border: 1px solid #000000;"></canvas>
+    <script>
+        var c = document.getElementById("mycanvas");
+        var ctx = c.getContext("2d");
+        // ctx.moveTo(0,0);
+        // ctx.lineTo(200,100);
+        // ctx.stroke();
+
+        ctx.beginPath();
+        ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+        ctx.stroke();
+    </script>
+</body>
+</html>
